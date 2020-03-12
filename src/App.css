@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+.App {
+  min-height: 100vh;
+  background-color: #efefef;
+  box-sizing: border-box;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  width: 50%;
+  min-height: 85vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(96, 129, 236);;
+}
+
+.input {
+  border: none;
+  width: 50%;
+  background-color: #efefef;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+}
+
+.input:focus,
+input:hover {
+  border-bottom: 1px solid rgb(96, 129, 236);
+  color: rgb(56, 84, 175);
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(37, 202, 37);
+}
+
+.active .subheading{
+  color: rgb(209, 88, 88);
+}
+
+.todo {
+  border-radius: 50px;
+  background: #efefef;
+  box-shadow: 6px 6px 12px #cbcbcb, -6px -6px 12px #ffffff;
+  margin: 10px 0px;
+  padding: 10px 20px;
+  overflow-wrap: anywhere;
+  display: flex;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.todotext {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.icon {
+  margin-left: auto;
+  align-self: center;
+  cursor: pointer;
+}
+
+.fa-trash {
+  color: rgb(96, 129, 236);
+}
+
+.fa-trash:hover {
+  color: rgb(209, 88, 88);
+}
+
+.empty{
+  margin-left: 10px;
+  color: grey;
+}
